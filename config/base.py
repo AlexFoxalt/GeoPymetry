@@ -33,7 +33,7 @@ class Config:
     CIRCLE_COLOR = "#1e8db9"
 
     LOG_MSG_TEMPLATE = '[{time}] {type} "{msg}"'
-    VERSION = "1.0.0"
+    VERSION = "1.0.1"
 
     @classmethod
     @property

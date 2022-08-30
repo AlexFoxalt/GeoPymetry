@@ -6,6 +6,9 @@ ve:
 clean_ve:
 	test -d .ve && rm -rf .ve
 
+install_packages:
+	sh install_packages.sh
+
 run:
 	python3 run.py
 
