@@ -1,27 +1,26 @@
 <html lang="en">
-<style>
-  p {font-family:"Segoe UI", sans-serif;}
-  h1, h2 {font-family:"Segoe UI", sans-serif;}
-</style>
-<img src="static/base/icon.png" style="margin: auto; display: block" alt="">
+<div align="center">
+  <img src="static/base/icon.png" style="align: center" alt="">
+</div>
 
 <h1 align="center" style="font-family: 'Segoe UI',sans-serif">GeoPymetry</h1>
 
-<p style="text-align: center">Welcome to GeoPymetry application. 
+<p align="center">Welcome to GeoPymetry application. 
 The main goal pursued by the author of this project was the ability to calculate all possible parameters of 
 geometric figures, passing all known data to the input. You do not need to pre-select from a limited pool of calculation 
 options, for example, calculating the parameters of a trapezoid only along two diagonals or sides. You can simply pass 
 all the data you know to the program and receive the rest of the previously unknown parameters in response.
 <br>At the moment, the application supports three languages: Ukrainian, Russian, English</p>
 <br><br>
-<div style="text-align: center">
-    <img style="margin-right: 15px" src="https://hatscripts.github.io/circle-flags/flags/ua.svg" width="60" alt="">
-    <img style="margin-right: 15px" src="https://hatscripts.github.io/circle-flags/flags/ru.svg" width="60" alt="">
+<div align="center">
+    <img src="https://hatscripts.github.io/circle-flags/flags/ua.svg" width="60" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="https://hatscripts.github.io/circle-flags/flags/ru.svg" width="60" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="https://hatscripts.github.io/circle-flags/flags/us.svg" width="60" alt="">
 </div>
 <br>
 
-<h2>Installation</h2>
+<h2 style="font-family: 'Segoe UI',sans-serif">Installation</h2>
+
 1. Clone git repository to your local machine
 ```shell
 git clone <url>
@@ -81,7 +80,7 @@ class Config:
 <p>For example, you can select any available application language by changing the `APP_LANG` var.<br>
 Be careful, changing some settings may affect the performance of the application!</p>
 
-<h2>Usage</h2>
+<h2 style="font-family: 'Segoe UI',sans-serif">Usage</h2>
 
 <p>After you pass 'welcome' page you'll be set to choose figure to process.</p>
 <a href="https://ibb.co/tcNhFJ1"><img src="https://i.ibb.co/4MDf3V0/Deepin-Screenshot-google-chrome-20220830195956.png" alt="Deepin-Screenshot-google-chrome-20220830195956" border="0"></a>
@@ -129,7 +128,7 @@ tries to give the maximum number of possible parameters for calculation.</p>
 <p>Here, for example, we proposed to calculate the parameters of a trapezoid, which has three sides of 2 cm each, 
 and the fourth is 100 cm. Of course, such a figure cannot physically exist.</p>
 
-<h2>Tests</h2>
+<h2 style="font-family: 'Segoe UI',sans-serif">Tests</h2>
 
 <p>The project has a set of tests that ensures that the models produce the correct calculation of the parameters of the 
 figures. If changes are made to the current functionality, you can start the test run with the command:</p>
@@ -138,13 +137,13 @@ figures. If changes are made to the current functionality, you can start the tes
 make tests
 ```
 
-<h2>Summing up</h2>
-<p style="font-style: italic">If using my application helped you in learning geometry, helped you pass some test, or just helped you find answers to your geometry questions, then I will consider that I have achieved the goal that I set for myself at the moment when I decided to do this project.
-Personally, with the help of this application, when it was still raw, I was preparing for the entrance exams to the university, by the way, I did well :) I checked my calculations on paper with those that GeoPymetry gave me on screen.
-<br>I will try, if possible, to supplement the project with new functionality, add new figures, expand the scope of parameters possible for calculation, introduce new languages, and so on.
-Any comments and pull requests are welcome, I'm open for dialogue.</p>
+<h2 style="font-family: 'Segoe UI',sans-serif">Summing up</h2>
+If using my application helped you in learning geometry, helped you pass some test, or just helped you find answers to your geometry questions, then I will consider that I have achieved the goal that I set for myself at the moment when I decided to do this project.
+<br><br>Personally, with the help of this application, when it was still raw, I was preparing for the entrance exams to the university, by the way, I did well :) I checked my calculations on paper with those that GeoPymetry gave me on screen.
+<br><br>I will try, if possible, to supplement the project with new functionality, add new figures, expand the scope of parameters possible for calculation, introduce new languages, and so on.
+Any comments and pull requests are welcome, I'm open for dialogue.
 
 <br><br><br><br>
 
-<p style="font-style: italic; text-align: right">Sincerely, the author of the project, <a href="https://github.com/AlexFoxalt" style="font-weight: bold">Alexfoxalt</a></p>
+<p align="right">Sincerely, the author of the project, <a href="https://github.com/AlexFoxalt">Alexfoxalt</a></p>
 </html>
