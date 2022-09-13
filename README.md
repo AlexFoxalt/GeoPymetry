@@ -78,7 +78,7 @@ class Config:
     ...
 ```
 For example, you can select any available application language by changing the `APP_LANG` var.<br>
-Be careful, changing some settings may affect the performance of the application!
+> __Warning__ Be careful, changing some settings may affect the performance of the application!
 
 <h2 style="font-family: 'Segoe UI',sans-serif">Usage</h2>
 
@@ -106,9 +106,8 @@ Now let's try to enter known data.<br>
 
 <a href="https://ibb.co/940r4FT"><img src="https://i.ibb.co/fNWxNhp/Deepin-Screenshot-select-area-20220830202130.png" alt="Deepin-Screenshot-select-area-20220830202130" border="0"></a>
 
-We have indicated that we know both cathetus of a right triangle. Please note that only numbers (int/float) can be 
-entered in the field, and it is also forbidden to leave the field empty. If these rules are violated, the program will 
-not process the data.
+We have indicated that we know both cathetus of a right triangle. 
+> __Note__ Only numbers (int/float) can be entered in the field, and it is also forbidden to leave the field empty. If these rules are violated, the program will not process the data.
 
 Our next step is to click on calculator button.<br>
 
@@ -120,7 +119,7 @@ Voila, and all the parameters of our figure are on the screen. Convenient, isn't
 2. If we want to reset the forms and continue working with the same shape, click the reset button.
 3. If we want to choose a different figure or just return to the first stage, we press the home button.
 
-Note that all calculations are saved until the refresh button is pressed.
+> __Note__ All calculations are saved until the refresh button is pressed.
 
 You may run into a situation where, after processing the shape, you will still have "zeroed" forms.
 <br><br>
