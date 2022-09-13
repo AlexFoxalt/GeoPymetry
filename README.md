@@ -1,6 +1,6 @@
-<html lang="en">
+<html>
 <div align="center">
-  <img src="static/base/icon.png" style="align: center" alt="">
+  <img src="static/base/icon.png" style="align: center" alt="icon">
 </div>
 
 <h1 align="center" style="font-family: 'Segoe UI',sans-serif">GeoPymetry</h1>
@@ -13,9 +13,9 @@ all the data you know to the program and receive the rest of the previously unkn
 <br>At the moment, the application supports three languages: Ukrainian, Russian, English</p>
 <br><br>
 <div align="center">
-    <img src="https://hatscripts.github.io/circle-flags/flags/ua.svg" width="60" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="https://hatscripts.github.io/circle-flags/flags/ru.svg" width="60" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="https://hatscripts.github.io/circle-flags/flags/us.svg" width="60" alt="">
+    <img src="https://hatscripts.github.io/circle-flags/flags/ua.svg" width="60" alt="ukraine">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="https://hatscripts.github.io/circle-flags/flags/ru.svg" width="60" alt="russia">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="https://hatscripts.github.io/circle-flags/flags/us.svg" width="60" alt="usa">
 </div>
 <br>
 
@@ -52,7 +52,7 @@ make run
 ```
 
 <h2>Configuration</h2>
-<p>All basic settings are stored in config file:</p>
+All basic settings are stored in config file:
 
 ```jsonpath
 config/base.py
@@ -77,61 +77,69 @@ class Config:
     
     ...
 ```
-<p>For example, you can select any available application language by changing the `APP_LANG` var.<br>
-Be careful, changing some settings may affect the performance of the application!</p>
+For example, you can select any available application language by changing the `APP_LANG` var.<br>
+Be careful, changing some settings may affect the performance of the application!
 
 <h2 style="font-family: 'Segoe UI',sans-serif">Usage</h2>
 
-<p>After you pass 'welcome' page you'll be set to choose figure to process.</p>
+After you pass "welcome" page you'll be set to choose figure to process.<br><br>
 <a href="https://ibb.co/tcNhFJ1"><img src="https://i.ibb.co/4MDf3V0/Deepin-Screenshot-google-chrome-20220830195956.png" alt="Deepin-Screenshot-google-chrome-20220830195956" border="0"></a>
 
 1. Tooltip panel, that shows a hint
 2. Possible types of figures for processing
 3. Current version of app
 
-<p>The next step is to choose the type of figure that is available. In fact, this is the same list of types as on the 
-previous slide, only more visual.</p>
+The next step is to choose the type of figure that is available. In fact, this is the same list of types as on the 
+previous slide, only more visual.
+<br><br>
 <a href="https://ibb.co/7Wv3GTy"><img src="https://i.ibb.co/DC4B76K/Deepin-Screenshot-gnome-calculator-20220830201309.png" alt="Deepin-Screenshot-gnome-calculator-20220830201309" border="0"></a>
+<br>
+For example, we will use a right-angled triangle, and then we will try to calculate the parameters of my figure.
+<br><br>
+<a href="https://ibb.co/6Fpj7vJ"><img src="https://i.ibb.co/3c8g9fY/Deepin-Screenshot-gnome-calculator-20220830201655.png" alt="Deepin-Screenshot-gnome-calculator-20220830201655" border="0"></a><br>
 
-<p>For example, we will use a right-angled triangle, and then we will try to calculate the parameters of my figure.</p>
-
-<a href="https://ibb.co/6Fpj7vJ"><img src="https://i.ibb.co/3c8g9fY/Deepin-Screenshot-gnome-calculator-20220830201655.png" alt="Deepin-Screenshot-gnome-calculator-20220830201655" border="0"></a>
-<p>This is how the main interface looks like, in which we will work. Here there is an extended drawing of the selected 
+This is how the main interface looks like, in which we will work. Here there is an extended drawing of the selected 
 figure, below we have a form for entering known data, and a button in the form of a calculator that will start 
-processing the data.</p>
+processing the data.
 
-<p>Now let's try to enter known data.</p>
+Now let's try to enter known data.<br>
+
 <a href="https://ibb.co/940r4FT"><img src="https://i.ibb.co/fNWxNhp/Deepin-Screenshot-select-area-20220830202130.png" alt="Deepin-Screenshot-select-area-20220830202130" border="0"></a>
 
-<p>We have indicated that we know both cathetus of a right triangle. Please note that <span style="font-weight: bold;color: indianred;">only</span> numbers (int/float) can be 
-entered in the field, and it is also <span style="font-weight: bold;color: indianred;">forbidden</span> to leave the field empty. If these rules are violated, the program will 
-not process the data.</p>
+We have indicated that we know both cathetus of a right triangle. Please note that only numbers (int/float) can be 
+entered in the field, and it is also forbidden to leave the field empty. If these rules are violated, the program will 
+not process the data.
 
-<p>Our next step is to click on calculator button</p>
+Our next step is to click on calculator button.<br>
 
 <a href="https://ibb.co/PGbvfRP"><img src="https://i.ibb.co/5hzgfdS/Deepin-Screenshot-google-chrome-20220830202827.png" alt="Deepin-Screenshot-google-chrome-20220830202827" border="0"></a>
 
-<p>Voila, and all the parameters of our figure are on the screen. Convenient, isn't it? :)</p>
+Voila, and all the parameters of our figure are on the screen. Convenient, isn't it? :)
 
-1. If you see this heading, everything went <span style="font-weight: bold;color: forestgreen;">well</span>!
-2. If we want to reset the forms and continue working with the new shape, click the reset button
-3. If we want to choose a different figure or just return to the first stage, we press the home button
+1. If you see this heading, everything went well!
+2. If we want to reset the forms and continue working with the same shape, click the reset button.
+3. If we want to choose a different figure or just return to the first stage, we press the home button.
 
-<p>You may run into a situation where, after processing the shape, you will still have zero forms.</p>
+Note that all calculations are saved until the refresh button is pressed.
+
+You may run into a situation where, after processing the shape, you will still have "zeroed" forms.
+<br><br>
 <a href="https://ibb.co/NLWXPpv"><img src="https://i.ibb.co/64D2xbM/Deepin-Screenshot-select-area-20220830203442.png" alt="Deepin-Screenshot-select-area-20220830203442" border="0"></a>
 
-<p>This happens when the entered data is not enough to calculate all the parameters of the figure. The application 
-tries to give the maximum number of possible parameters for calculation.</p>
+This happens when the entered data is not enough to calculate all the parameters of the figure. The application 
+tries to give the maximum number of possible parameters for calculation.
 
-<p>It is also possible that the data entered simply forms a non-existent figure.</p>
+It is also possible that the data entered simply forms a non-existent figure.
+<br><br>
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/5hrkp59/Deepin-Screenshot-google-chrome-20220830203835.png" alt="Deepin-Screenshot-google-chrome-20220830203835" border="0"></a>
-<p>Here, for example, we proposed to calculate the parameters of a trapezoid, which has three sides of 2 cm each, 
-and the fourth is 100 cm. Of course, such a figure cannot physically exist.</p>
+<br>
+Here, for example, we proposed to calculate the parameters of a trapezoid, which has three sides of 2 cm each, 
+and the fourth is 100 cm. Of course, such a figure cannot physically exist.
 
 <h2 style="font-family: 'Segoe UI',sans-serif">Tests</h2>
 
-<p>The project has a set of tests that ensures that the models produce the correct calculation of the parameters of the 
-figures. If changes are made to the current functionality, you can start the test run with the command:</p>
+The project has a set of tests that ensures that the models produce the correct calculation of the parameters of the 
+figures. If changes are made to the current functionality, you can start the test run with the command:
 
 ```shell
 make tests
